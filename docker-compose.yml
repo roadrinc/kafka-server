@@ -21,7 +21,7 @@ services:
 
   kafka_manager:
     image: hlebalbau/kafka-manager:stable
-    container _name: kakfa-manager
+    container_name: kakfa-manager
     restart: always
     ports:
       - "9000:9000"
